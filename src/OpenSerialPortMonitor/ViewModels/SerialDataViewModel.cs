@@ -102,18 +102,25 @@ namespace Whitestone.OpenSerialPortMonitor.Main.ViewModels
 
         void _cacheTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            string dataParsed = _dataViewParsedBuilder.ToString();
-            _dataViewParsedBuilder = new StringBuilder();
+            try
+            {
+                string dataParsed = _dataViewParsedBuilder.ToString();
+                _dataViewParsedBuilder = new StringBuilder();
 
-            string dataHex = _dataViewHexBuilder.ToString();
-            _dataViewHexBuilder = new StringBuilder();
+                string dataHex = _dataViewHexBuilder.ToString();
+                _dataViewHexBuilder = new StringBuilder();
 
-            string dataRaw = _dataViewRawBuilder.ToString();
-            _dataViewRawBuilder = new StringBuilder();
+                string dataRaw = _dataViewRawBuilder.ToString();
+                _dataViewRawBuilder = new StringBuilder();
 
-            DataViewParsed += dataParsed;
-            DataViewHex += dataHex;
-            DataViewRaw += dataRaw;
+                DataViewParsed += dataParsed;
+                DataViewHex += dataHex;
+                DataViewRaw += dataRaw;
+            }
+            catch (System.ArgumentOutOfRangeException err)
+            {
+                Console.WriteLine(err.Message);
+            }
         }
 
         public void Handle(Autoscroll message)

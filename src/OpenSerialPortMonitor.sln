@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D61E81
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSerialPortWindowsService", "OpenSerialPortWindowsService\OpenSerialPortWindowsService.csproj", "{4122ECE8-F6E9-4FCA-B3ED-54093AFEA550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSerialPortUnitTest", "OpenSerialPortUnitTest\OpenSerialPortUnitTest.csproj", "{4A53A6E8-6726-4BCC-A422-7DB4A46E2920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSerialPortApplication", "OpenSerialPortApplication\OpenSerialPortApplication.csproj", "{9209BEBC-A20F-4292-B489-A4C5FC4A6D7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,14 @@ Global
 		{4122ECE8-F6E9-4FCA-B3ED-54093AFEA550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4122ECE8-F6E9-4FCA-B3ED-54093AFEA550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4122ECE8-F6E9-4FCA-B3ED-54093AFEA550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A53A6E8-6726-4BCC-A422-7DB4A46E2920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A53A6E8-6726-4BCC-A422-7DB4A46E2920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A53A6E8-6726-4BCC-A422-7DB4A46E2920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A53A6E8-6726-4BCC-A422-7DB4A46E2920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9209BEBC-A20F-4292-B489-A4C5FC4A6D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9209BEBC-A20F-4292-B489-A4C5FC4A6D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9209BEBC-A20F-4292-B489-A4C5FC4A6D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9209BEBC-A20F-4292-B489-A4C5FC4A6D7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

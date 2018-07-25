@@ -31,7 +31,7 @@
             // 
             // OpenSerialPortService
             // 
-            this.ServiceName = "Service1";
+            this.ServiceName = "OpenSerialPortService";
 
         }
 

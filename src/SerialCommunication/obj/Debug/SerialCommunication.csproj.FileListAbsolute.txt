@@ -27,6 +27,5 @@ D:\Projects\open-serial-port-monitor\src\SerialCommunication\bin\Debug\ko\System
 D:\Projects\open-serial-port-monitor\src\SerialCommunication\bin\Debug\ru\System.Windows.Interactivity.resources.dll
 D:\Projects\open-serial-port-monitor\src\SerialCommunication\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 D:\Projects\open-serial-port-monitor\src\SerialCommunication\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
-D:\Projects\open-serial-port-monitor\src\SerialCommunication\obj\Debug\SerialCommunication.csprojResolveAssemblyReference.cache
 D:\Projects\open-serial-port-monitor\src\SerialCommunication\obj\Debug\SerialCommunication.dll
 D:\Projects\open-serial-port-monitor\src\SerialCommunication\obj\Debug\SerialCommunication.pdb

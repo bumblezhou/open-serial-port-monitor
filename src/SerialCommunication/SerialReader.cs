@@ -93,9 +93,9 @@ namespace Whitestone.OpenSerialPortMonitor.SerialCommunication
                         _receiveBuffer.AddRange(received);
                     }
                 }
-                catch
+                catch(Exception e)
                 {
-
+                    Console.WriteLine(e.Message);
                 }
             }
         }
